@@ -14,4 +14,15 @@ function capitalizeLetters(str) {
   return words.join(" ");
 }
 
-  console.log(capitalizeLetters('i love javascript'))
+// Using map
+function capitalize(str) {
+    // let words = str.split(" ");
+   return str.split(" ").map((word) => { 
+        return word[0].toUpperCase() + word.substring(1); 
+    }).join(" ");
+    
+}
+
+
+console.log(capitalizeLetters('i love javascript'))
+console.log(capitalize('i love javascript'))

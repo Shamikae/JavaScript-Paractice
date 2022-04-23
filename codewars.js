@@ -27,3 +27,16 @@ function highAndLow2(numbers){
   console.log(highAndLow("1 2 3 4 5"));
   console.log(highAndLow1("1 2 3 4 5"));
   console.log(highAndLow2("1 2 3 4 5"));
+
+// check if int is even or odd
+function even_or_odd(number) {
+  
+    if(number % 2 == 0){
+      console.log("Even")
+    }else {console.log("Odd")}
+    
+  }
+  even_or_odd(2)
+  
+  
+  
